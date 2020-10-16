@@ -1,9 +1,3 @@
-# 实验报告
-[readme.pdf](./readme.pdf)
-
-参考本实验报告的大哥大姐请star，时刻关注本仓库的更新
-
-
 # 测试文件格式
 测试文件位于test/
 
@@ -44,7 +38,7 @@ show all name_of_customer            // 显示某客户的预订或购票情况
 
 ```sh
 # 打开终端，先到项目目录下
-cd Concert
+
 # 编译
 make clean
 make
@@ -61,3 +55,8 @@ make
 # 示例运行文档
 ./main test/all_test.txt 
 ```
+
+# 详细实验报告
+[readme.pdf](./readme.pdf)
+
+希望参考本代码的同学有所收获，如果能点击一下star就更好了:)
