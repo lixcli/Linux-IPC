@@ -1,0 +1,11 @@
+test_ipc: my_ipc_test.o ipc_util.o
+	g++ -o $@ $^
+
+ipc_util.o: ipc_util.cpp ipc_util.h ipc_exception.h
+	g++ -c $^
+
+my_ipc_test.o: my_ipc_test.cpp ipc_util.cpp
+	g++ -c $^
+.PHONY : clean
+clean :
+	-rm test_ipc *.o *.h.gch

@@ -1,0 +1,24 @@
+10     
+10    
+2    
+0.1 
+agent 1 
+reserve 3
+ticket 2   
+cancel 1   
+check_customer 1
+ticket "A 2c" Barry 
+ticket "B 2" Ellen
+ticket "C 2 5" Barry
+ticket "F 11" Barry    
+end
+agent 2 
+reserve 3
+ticket 2   
+cancel 1   
+check_customer 1
+ticket "D" Barry 
+ticket "E 2r" Barry 
+ticket "6" Barry
+ticket "K 5" Barry
+end
