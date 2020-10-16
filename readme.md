@@ -1,3 +1,6 @@
+# 实验报告
+[readme.pdf](./readme.pdf)
+
 # 测试文件格式
 测试文件位于test/
 
